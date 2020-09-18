@@ -1,0 +1,56 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.background{
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+}
+
+.agent {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    max-width: 30%;
+}
+
+.table-l{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    max-width: 20%;
+}
+
+.table-r{
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    max-width: 20%;
+}
+
+.object-l{
+    position: absolute;
+    bottom: 30%;
+    left: 22.5%;
+    max-width: 15%; 
+}
+
+.object-r{
+    position: absolute;
+    bottom: 30%;
+    right: 22.5%;
+    max-width: 15%; 
+}
